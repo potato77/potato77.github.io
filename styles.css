@@ -123,8 +123,10 @@ button { color: inherit; font: inherit; }
 .award-list { border-bottom: 0; }
 .award-entry { display: grid; grid-template-columns: minmax(0, 1fr) 130px; gap: 24px; align-items: baseline; padding: 19px 0; border-top: 1px solid var(--line); }
 .award-entry:first-child { border-top: 0; }
+.award-body { min-width: 0; }
 .award-entry h3 { margin: 0; color: var(--heading); font-family: Georgia, "Noto Sans SC", serif; font-size: 1rem; line-height: 1.55; }
 .award-entry p { margin: 4px 0 0 !important; color: var(--muted); font-size: .78rem; line-height: 1.55; }
+.award-meta { margin-top: 10px; }
 .award-level { color: var(--link-dark); font-size: .8rem; font-weight: 700; text-align: right; }
 
 .projects-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
