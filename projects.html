@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN">
+<html class="project-locked" lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,7 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css?v=20261016-7" />
+    <link rel="stylesheet" href="styles.css?v=20261016-9" />
+    <script>
+      if (sessionStorage.getItem('projectsAccess') === 'granted') {
+        document.documentElement.classList.replace('project-locked', 'project-unlocked');
+      }
+    </script>
   </head>
   <body>
     <header class="site-header" id="top">
@@ -32,7 +37,21 @@
       <a class="active" href="projects.html" aria-current="page">项目</a><a href="join.html">招生</a>
     </nav>
 
-    <main class="page-shell">
+    <main class="access-shell project-access" aria-labelledby="accessTitle">
+      <form class="access-form" id="projectAccessForm">
+        <i data-lucide="lock-keyhole" aria-hidden="true"></i>
+        <h1 id="accessTitle">项目页面</h1>
+        <p>请输入访问密码</p>
+        <label class="sr-only" for="projectPassword">访问密码</label>
+        <div class="access-input-row">
+          <input id="projectPassword" name="password" type="password" autocomplete="current-password" required autofocus />
+          <button type="submit">进入</button>
+        </div>
+        <p class="access-error" id="projectAccessError" role="alert" aria-live="polite"></p>
+      </form>
+    </main>
+
+    <main class="page-shell project-protected">
       <aside class="profile" aria-label="个人资料">
         <img src="assets/portrait.jpg" alt="戚煜华个人肖像" />
         <h1>戚煜华</h1><p class="name-en">Yuhua Qi</p>
@@ -61,8 +80,9 @@
       </div>
     </main>
 
-    <footer><div class="footer-inner"><span>© <span id="year"></span> Yuhua Qi</span><a href="index.html">返回主页</a></div></footer>
+    <footer class="project-protected"><div class="footer-inner"><span>© <span id="year"></span> Yuhua Qi</span><a href="index.html">返回主页</a></div></footer>
     <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+    <script src="project-access.js?v=20261016-1"></script>
     <script src="script.js?v=20261016-3"></script>
   </body>
 </html>
