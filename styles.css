@@ -46,16 +46,18 @@ button { color: inherit; font: inherit; }
 .profile-links svg { flex: 0 0 auto; width: 15px; height: 15px; }
 
 .content { min-width: 0; }
-.content section { padding: 0 0 54px; margin: 0 0 52px; border-bottom: 1px solid var(--line); }
-.content section:last-child { border-bottom: 0; }
+.content section { padding: 0; margin: 0 0 44px; border-bottom: 0; }
+.content section:last-child { margin-bottom: 0; }
 .content h2 { margin: 0 0 22px; color: var(--heading); font-size: 1.72rem; line-height: 1.3; letter-spacing: 0; }
 .content h2 small { margin-left: 9px; color: var(--muted); font-size: .72rem; font-weight: 500; text-transform: uppercase; }
 .content p { margin: 0 0 18px; }
 .interest-list { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
 .interest-list li { display: grid; grid-template-columns: 190px 1fr; gap: 22px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.interest-list li:last-child { border-bottom: 0; }
 .interest-list strong { color: var(--heading); font-size: .9rem; }.interest-list span { color: var(--muted); font-size: .9rem; }
 .honor-list { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
 .honor-list li { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 22px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.honor-list li:last-child { border-bottom: 0; }
 .honor-list time { color: var(--link-dark); font-size: .78rem; font-weight: 700; }
 .honor-list span { color: var(--heading); font-size: .9rem; }
 
@@ -79,7 +81,7 @@ button { color: inherit; font: inherit; }
 .page-heading > p:last-child { max-width: 620px; margin: 0; color: var(--muted); }
 .publication-page .publication-year { margin: 0 0 54px; padding: 0; border: 0; }
 .publication-year-heading { padding-bottom: 10px; border-bottom: 2px solid var(--heading); font-size: 1.35rem !important; }
-.paper-list { border-bottom: 1px solid var(--line); }
+.paper-list { border-bottom: 0; }
 .paper-entry { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 26px; padding: 25px 0; border-top: 1px solid var(--line); }
 .paper-entry:first-child { border-top: 0; }
 .paper-thumb { width: 180px; height: 126px; display: flex; align-items: flex-start; justify-content: center; margin: 0; overflow: hidden; background: var(--soft); border: 1px solid var(--line); }
@@ -107,20 +109,18 @@ button { color: inherit; font: inherit; }
 .paper-info-panel dd { min-width: 0; margin: 0; color: var(--heading); overflow-wrap: anywhere; }
 .publication-loading, .publication-error { color: var(--muted); font-size: .86rem; }
 
-.patent-group { margin: 0 0 54px; padding: 0 !important; border: 0 !important; }
+.patent-group { margin: 0 0 42px !important; padding: 0 !important; border: 0 !important; }
 .patent-group-heading { padding-bottom: 10px; border-bottom: 2px solid var(--heading); font-size: 1.35rem !important; }
-.patent-list { border-bottom: 1px solid var(--line); }
+.patent-list { border-bottom: 0; }
 .patent-entry { display: grid; grid-template-columns: 108px minmax(0, 1fr); gap: 26px; padding: 25px 0; border-top: 1px solid var(--line); }
 .patent-entry:first-child { border-top: 0; }
-.patent-year { color: var(--muted); font-size: .78rem; font-weight: 600; }
+.patent-number { color: var(--muted); font-size: .72rem; font-weight: 700; }
 .patent-body { min-width: 0; }
 .patent-body h3 { margin: -3px 0 7px; color: var(--heading); font-family: Georgia, "Noto Sans SC", serif; font-size: 1.05rem; line-height: 1.5; }
-.patent-inventors { margin: 0 0 14px !important; color: #5d6367; font-size: .8rem; line-height: 1.6; }
 .patent-meta { display: grid; grid-template-columns: 80px minmax(0, 1fr); gap: 4px 14px; margin: 0; font-size: .76rem; line-height: 1.6; }
 .patent-meta dt { color: var(--muted); }
 .patent-meta dd { min-width: 0; margin: 0; color: var(--heading); overflow-wrap: anywhere; }
-.patent-status { color: var(--link-dark); font-weight: 600; }
-.award-list { border-bottom: 1px solid var(--line); }
+.award-list { border-bottom: 0; }
 .award-entry { display: grid; grid-template-columns: minmax(0, 1fr) 130px; gap: 24px; align-items: baseline; padding: 19px 0; border-top: 1px solid var(--line); }
 .award-entry:first-child { border-top: 0; }
 .award-entry h3 { margin: 0; color: var(--heading); font-family: Georgia, "Noto Sans SC", serif; font-size: 1rem; line-height: 1.55; }
@@ -139,6 +139,7 @@ button { color: inherit; font: inherit; }
 
 .timeline { border-top: 1px solid var(--line); }
 .timeline > div { display: grid; grid-template-columns: 170px 1fr; gap: 22px; padding: 15px 0; border-bottom: 1px solid var(--line); }
+.timeline > div:last-child { border-bottom: 0; }
 .timeline time { color: var(--muted); font-size: .78rem; }
 .timeline p { margin: 0; font-size: .87rem; line-height: 1.55; }.timeline strong { color: var(--heading); }
 .email-button { display: inline-flex; align-items: center; gap: 8px; margin-top: 5px; padding: 9px 13px; background: var(--soft); border: 1px solid var(--line); font-size: .8rem; font-weight: 500; }
@@ -146,10 +147,12 @@ button { color: inherit; font: inherit; }
 
 .program-list { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
 .program-list li { display: grid; grid-template-columns: 130px minmax(0, 1fr); gap: 22px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.program-list li:last-child { border-bottom: 0; }
 .program-list span { color: var(--muted); font-size: .8rem; }
 .program-list strong { color: var(--heading); font-size: .94rem; font-weight: 600; }
 .admission-list { margin: 0; padding: 0; list-style: none; counter-reset: requirement; border-top: 1px solid var(--line); }
 .admission-list li { position: relative; padding: 15px 0 15px 42px; border-bottom: 1px solid var(--line); font-size: .9rem; }
+.admission-list li:last-child { border-bottom: 0; }
 .admission-list li::before { position: absolute; top: 15px; left: 0; color: var(--link-dark); font-size: .72rem; font-weight: 700; counter-increment: requirement; content: "0" counter(requirement); }
 .application-steps { margin: 0; padding: 0; list-style: none; }
 .application-steps li { display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 12px; align-items: baseline; margin-bottom: 12px; }
