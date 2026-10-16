@@ -41,12 +41,10 @@ button { color: inherit; font: inherit; }
 .name-en { margin: 2px 0 0; color: var(--muted); font-size: .78rem; }
 .role { margin: 16px 0 0; color: var(--heading); font-size: .83rem; font-weight: 500; line-height: 1.55; }
 .affiliation { margin: 4px 0 0; color: var(--muted); font-size: .8rem; line-height: 1.55; }
-.profile-links { margin: 22px 0 0; padding: 0; list-style: none; }
-.profile-links li, .profile-links a { display: flex; align-items: center; gap: 9px; min-height: 29px; color: #4d5356; font-size: .78rem; }
+.profile-links { margin: 12px 0 0; padding: 0; list-style: none; }
+.profile-links li, .profile-links a { display: flex; align-items: center; gap: 9px; min-height: 27px; color: #4d5356; font-size: .78rem; }
 .profile-links a:hover { color: var(--link); text-decoration: none; }
 .profile-links svg { flex: 0 0 auto; width: 15px; height: 15px; }
-.home-page .profile-links { margin-top: 12px; }
-.home-page .profile-links li, .home-page .profile-links a { min-height: 27px; }
 
 .content { min-width: 0; }
 .content section { padding: 0; margin: 0 0 44px; border-bottom: 0; }
