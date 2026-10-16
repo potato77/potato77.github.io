@@ -7,11 +7,12 @@ function element(tag, className, text) {
   return node;
 }
 
-function iconLink(label, url, iconName) {
+function iconLink(label, url, iconName, options = {}) {
   const link = element('a', 'paper-link');
   link.href = url;
   link.target = '_blank';
   link.rel = 'noreferrer';
+  if (options.download) link.download = options.download;
   link.innerHTML = `<i data-lucide="${iconName}"></i><span>${label}</span>`;
   return link;
 }
@@ -44,13 +45,21 @@ function renderPaper(paper) {
   const authors = element('p', 'paper-authors');
   paper.authors.forEach((author, index) => {
     const isSelf = /^(Yuhua|Yu-Hua) Qi$/i.test(author);
-    authors.append(element(isSelf ? 'strong' : 'span', isSelf ? 'author-self' : '', author));
+    const authorNode = element(isSelf ? 'strong' : 'span', isSelf ? 'author-self' : '', author);
+    authors.append(authorNode);
+    if (paper.corresponding_authors?.includes(author)) {
+      const marker = element('sup', 'corresponding-author', '*');
+      marker.title = 'Corresponding author';
+      marker.setAttribute('aria-label', '，通信作者');
+      authors.append(marker);
+    }
     if (index < paper.authors.length - 1) authors.append(document.createTextNode(', '));
   });
 
   const venue = element('p', 'paper-venue', paper.venue);
   const actions = element('div', 'paper-actions');
-  actions.append(iconLink('Paper', paper.paper_url, 'file-text'));
+  const pdfName = paper.paper_url.startsWith('papers/') ? paper.paper_url.slice('papers/'.length) : '';
+  actions.append(iconLink('PDF', paper.paper_url, 'download', { download: pdfName }));
   paper.links.forEach(link => {
     const iconName = link.label.toLowerCase().includes('code') ? 'code-2' : 'external-link';
     actions.append(iconLink(link.label, link.url, iconName));

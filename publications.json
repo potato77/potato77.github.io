@@ -12,7 +12,7 @@
     ],
     "venue": "Engineering Research Express",
     "doi": "10.1088/2631-8695/aea8d5",
-    "paper_url": "https://doi.org/10.1088/2631-8695/aea8d5",
+    "paper_url": "papers/2026-rad-yolo-a-lightweight-edge-deployed-visual-measurement-method-for-small-object-detection-in-uav-imagery.pdf",
     "published_url": "https://iopscience.iop.org/article/10.1088/2631-8695/aea8d5",
     "image": "assets/publications/paper-01.webp",
     "info": [
@@ -23,7 +23,10 @@
       "作者情况：戚煜华合作作者",
       "发表日期：2026-09-30"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Yanqing Hou"
+    ]
   },
   {
     "id": "paper-02",
@@ -42,7 +45,7 @@
     ],
     "venue": "The International Journal of Robotics Research",
     "doi": "10.1177/02783649251344967",
-    "paper_url": "https://doi.org/10.1177/02783649251344967",
+    "paper_url": "papers/2025-heterogeneous-lidar-dataset-for-benchmarking-robust-localization-in-diverse-degenerate-scenarios.pdf",
     "published_url": "https://journals.sagepub.com/doi/10.1177/02783649251344967",
     "image": "assets/publications/paper-02.webp",
     "info": [
@@ -59,6 +62,9 @@
         "label": "Code",
         "url": "https://github.com/PengYu-Team/GEODE_dataset"
       }
+    ],
+    "corresponding_authors": [
+      "Yuhua Qi"
     ]
   },
   {
@@ -75,7 +81,7 @@
     ],
     "venue": "IEEE Robotics and Automation Letters",
     "doi": "10.1109/LRA.2025.3544928",
-    "paper_url": "https://doi.org/10.1109/LRA.2025.3544928",
+    "paper_url": "papers/2025-cartgs-computational-alignment-for-real-time-gaussian-splatting-slam.pdf",
     "published_url": "https://ieeexplore.ieee.org/document/10900401/",
     "image": "assets/publications/paper-03.webp",
     "info": [
@@ -92,6 +98,10 @@
         "label": "Code",
         "url": "https://github.com/DapengFeng/cartgs"
       }
+    ],
+    "corresponding_authors": [
+      "Yuhua Qi",
+      "Hongbo Chen"
     ]
   },
   {
@@ -106,7 +116,7 @@
     ],
     "venue": "International Conference on Control, Automation and Robotics",
     "doi": "10.1109/ICCAR64901.2025.11073039",
-    "paper_url": "https://doi.org/10.1109/ICCAR64901.2025.11073039",
+    "paper_url": "papers/2025-a-lidar-localization-method-for-mobile-robots-based-on-fast-search-and-outlier-mitigation.pdf",
     "published_url": "https://ieeexplore.ieee.org/document/11073039/",
     "image": "assets/publications/paper-04.webp",
     "info": [
@@ -117,7 +127,10 @@
       "发表日期：15 July 2025",
       "作者情况：学生第一作者，戚煜华通信作者"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Yuhua Qi"
+    ]
   },
   {
     "id": "paper-05",
@@ -135,7 +148,7 @@
     ],
     "venue": "IEEE Robotics and Automation Letters",
     "doi": "10.1109/LRA.2025.3623436",
-    "paper_url": "https://doi.org/10.1109/LRA.2025.3623436",
+    "paper_url": "papers/2025-breaking-the-static-assumption-a-dynamic-aware-lio-framework-via-spatio-temporal-normal-analysis.pdf",
     "published_url": "https://ieeexplore.ieee.org/document/11207655/",
     "image": "assets/publications/paper-05.webp",
     "info": [
@@ -147,7 +160,10 @@
       "作者情况：戚煜华合作作者",
       "发表日期：2025-11-08"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Peng Lu"
+    ]
   },
   {
     "id": "paper-06",
@@ -166,7 +182,7 @@
     ],
     "venue": "IEEE Transactions on Instrumentation and Measurement ",
     "doi": "10.1109/TIM.2025.3541657",
-    "paper_url": "https://doi.org/10.1109/TIM.2025.3541657",
+    "paper_url": "papers/2025-am-align-globally-optimal-estimation-of-accelerometer-magnetometer-misalignment.pdf",
     "published_url": "https://ieeexplore.ieee.org/document/10897324/",
     "image": "assets/publications/paper-06.webp",
     "info": [
@@ -178,7 +194,10 @@
       "作者情况：戚煜华合作作者",
       "发表日期：21 February 2025"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Ping Tan"
+    ]
   },
   {
     "id": "paper-07",
@@ -195,7 +214,7 @@
     ],
     "venue": "IEEE TRANSACTIONS ON AEROSPACE AND ELECTRONIC SYSTEMS",
     "doi": "10.1109/TAES.2025.3561112",
-    "paper_url": "https://doi.org/10.1109/TAES.2025.3561112",
+    "paper_url": "papers/2025-clustering-strategy-for-megaconstellation-with-synergistic-energy-and-size-considerations.pdf",
     "published_url": "https://ieeexplore.ieee.org/document/10966249/",
     "image": "assets/publications/paper-07.webp",
     "info": [
@@ -207,7 +226,11 @@
       "作者情况：戚煜华合作作者",
       "发表日期：2025-09-22"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Chengxi Zhang",
+      "Tianle Yin"
+    ]
   },
   {
     "id": "paper-08",
@@ -225,7 +248,7 @@
     ],
     "venue": "IEEE Robotics and Automation Letters",
     "doi": "10.1109/LRA.2024.3490402",
-    "paper_url": "https://doi.org/10.1109/LRA.2024.3490402",
+    "paper_url": "papers/2024-s3e-a-multi-robot-multimodal-dataset-for-collaborative-slam.pdf",
     "published_url": "https://ieeexplore.ieee.org/document/10740801/",
     "image": "assets/publications/paper-08.webp",
     "info": [
@@ -242,6 +265,9 @@
         "label": "Code / Dataset",
         "url": "https://github.com/DapengFeng/S3E"
       }
+    ],
+    "corresponding_authors": [
+      "Yuhua Qi"
     ]
   },
   {
@@ -260,7 +286,7 @@
     ],
     "venue": "IEEE International Conference on Robotics and Automation",
     "doi": "10.1109/ICRA57147.2024.10611074",
-    "paper_url": "https://doi.org/10.1109/ICRA57147.2024.10611074",
+    "paper_url": "papers/2024-relead-resilient-localization-with-enhanced-lidar-odometry-in-adverse-environments.pdf",
     "published_url": "https://ieeexplore.ieee.org/document/10611074/",
     "image": "assets/publications/paper-09.webp",
     "info": [
@@ -272,7 +298,10 @@
       "作者情况：学生第一作者，戚煜华通信作者",
       "发表日期：2024-05-13"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Yuhua Qi"
+    ]
   },
   {
     "id": "paper-10",
@@ -290,7 +319,7 @@
     ],
     "venue": "IEEE International Conference on Robotics and Automation",
     "doi": "10.1109/ICRA57147.2024.10611672",
-    "paper_url": "https://doi.org/10.1109/ICRA57147.2024.10611672",
+    "paper_url": "papers/2024-colrio-lidar-ranging-inertial-centralized-state-estimation-for-robotic-swarms.pdf",
     "published_url": "https://ieeexplore.ieee.org/document/10611672/",
     "image": "assets/publications/paper-10.webp",
     "info": [
@@ -302,7 +331,10 @@
       "作者情况：学生第一作者，戚煜华通信作者",
       "发表日期：2024-05-13"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Yuhua Qi"
+    ]
   },
   {
     "id": "paper-11",
@@ -317,7 +349,7 @@
     ],
     "venue": "International Conference on Unmanned Systems ",
     "doi": "10.1109/ICUS61736.2024.10839850",
-    "paper_url": "https://doi.org/10.1109/ICUS61736.2024.10839850",
+    "paper_url": "papers/2024-a-marker-based-method-of-autonomous-landing-for-unmanned-aerial-vehicles.pdf",
     "published_url": "https://ieeexplore.ieee.org/document/10839850/",
     "image": "assets/publications/paper-11.webp",
     "info": [
@@ -328,7 +360,10 @@
       "发表日期：22 January 2025",
       "作者情况：学生第一作者，戚煜华通信作者"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Yuhua Qi"
+    ]
   },
   {
     "id": "paper-12",
@@ -347,7 +382,7 @@
     ],
     "venue": "自动化学报",
     "doi": "10.16383/j.aas.c240221",
-    "paper_url": "https://doi.org/10.16383/j.aas.c240221",
+    "paper_url": "papers/2024-行人惯性定位新动态-基于神经网络的方法、性能与展望.pdf",
     "published_url": "https://doi.org/10.16383/j.aas.c240221",
     "image": "assets/publications/paper-12.webp",
     "info": [
@@ -359,7 +394,8 @@
       "作者情况：第一作者：李岩，戚煜华为合作作者",
       "发表日期：2025.2.1"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": []
   },
   {
     "id": "paper-13",
@@ -374,7 +410,7 @@
     ],
     "venue": "Remote Sensing",
     "doi": "10.3390/rs16091626",
-    "paper_url": "https://doi.org/10.3390/rs16091626",
+    "paper_url": "papers/2024-domain-feature-decomposition-for-efficient-object-detection-in-aerial-images.pdf",
     "published_url": "https://www.mdpi.com/2072-4292/16/9/1626",
     "image": "assets/publications/paper-13.webp",
     "info": [
@@ -386,7 +422,10 @@
       "发表日期：2024.5.1",
       "作者情况：第一作者为外校人员，戚煜华为通信作者"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Yuhua Qi"
+    ]
   },
   {
     "id": "paper-14",
@@ -403,7 +442,7 @@
     ],
     "venue": "Neural Computing and Applications",
     "doi": "10.1007/s00521-024-09917-2",
-    "paper_url": "https://doi.org/10.1007/s00521-024-09917-2",
+    "paper_url": "papers/2024-position-information-encoding-fpn-for-small-object-detection-in-aerial-images.pdf",
     "published_url": "https://link.springer.com/10.1007/s00521-024-09917-2",
     "image": "assets/publications/paper-14.webp",
     "info": [
@@ -415,7 +454,10 @@
       "作者情况：学生第一作者，戚煜华通信作者",
       "发表日期：2024.1.1"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Yuhua Qi"
+    ]
   },
   {
     "id": "paper-15",
@@ -436,7 +478,7 @@
     ],
     "venue": " IEEE Transactions on Instrumentation and Measurement ",
     "doi": "10.1109/TIM.2024.3438850",
-    "paper_url": "https://doi.org/10.1109/TIM.2024.3438850",
+    "paper_url": "papers/2024-on-similarity-transformation-problems-globally-optimal-results-and-applications.pdf",
     "published_url": "https://ieeexplore.ieee.org/document/10628003/",
     "image": "assets/publications/paper-15.webp",
     "info": [
@@ -448,7 +490,11 @@
       "作者情况：第一作者为校外人员，戚煜华为合作作者",
       "发表日期：06 August 2024"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Chaoqun Wang",
+      "Wei Zhang"
+    ]
   },
   {
     "id": "paper-16",
@@ -464,7 +510,7 @@
     ],
     "venue": "APPLIED SCIENCES",
     "doi": "10.3390/app13042244",
-    "paper_url": "https://doi.org/10.3390/app13042244",
+    "paper_url": "papers/2023-a-multi-stage-deep-reinforcement-learning-with-search-based-optimization-for-air-ground-unmanned-system-navigation.pdf",
     "published_url": "https://www.mdpi.com/2076-3417/13/4/2244",
     "image": "assets/publications/paper-16.webp",
     "info": [
@@ -476,7 +522,10 @@
       "作者情况：学生第一作者，戚煜华通信作者",
       "发表日期：2023.2.9"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Yuhua Qi"
+    ]
   },
   {
     "id": "paper-17",
@@ -492,7 +541,7 @@
     ],
     "venue": "IEEE Sensors Journal",
     "doi": "10.1109/JSEN.2023.3345541",
-    "paper_url": "https://doi.org/10.1109/JSEN.2023.3345541",
+    "paper_url": "papers/2023-dcl-slam-a-distributed-collaborative-lidar-slam-framework-for-a-robotic-swarm.pdf",
     "published_url": "https://ieeexplore.ieee.org/document/10375928/",
     "image": "assets/publications/paper-17.webp",
     "info": [
@@ -509,6 +558,9 @@
         "label": "Code",
         "url": "https://github.com/PengYu-Team/DCL-SLAM"
       }
+    ],
+    "corresponding_authors": [
+      "Yuhua Qi"
     ]
   },
   {
@@ -525,7 +577,7 @@
     ],
     "venue": "IEEE International Conference on Unmanned Systems",
     "doi": "10.1109/ICUS55513.2022.9987005",
-    "paper_url": "https://doi.org/10.1109/ICUS55513.2022.9987005",
+    "paper_url": "papers/2022-scl-slam-a-scan-context-enabled-lidar-slam-using-factor-graph-based-optimization.pdf",
     "published_url": "https://ieeexplore.ieee.org/document/9987005/",
     "image": "assets/publications/paper-18.webp",
     "info": [
@@ -534,7 +586,10 @@
       "发表日期：2022-10-28",
       "作者情况：学生第一作者，戚煜华通信作者"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Yuhua Qi"
+    ]
   },
   {
     "id": "paper-19",
@@ -549,7 +604,7 @@
     ],
     "venue": "International Conference on Guidance, Navigation and Control",
     "doi": "10.1007/978-981-19-6613-2_606",
-    "paper_url": "https://doi.org/10.1007/978-981-19-6613-2_606",
+    "paper_url": "papers/2022-a-deep-reinforcement-learning-approach-for-quadrotor-path-planning-with-search-based-planner-optimization.pdf",
     "published_url": "https://link.springer.com/10.1007/978-981-19-6613-2_606",
     "image": "assets/publications/paper-19.webp",
     "info": [
@@ -560,7 +615,10 @@
       "发表日期：AUG 07, 2022",
       "作者情况：学生第一作者，戚煜华通信作者"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Yuhua Qi"
+    ]
   },
   {
     "id": "paper-20",
@@ -575,7 +633,7 @@
     ],
     "venue": "Control Engineering Practice",
     "doi": "10.1016/j.conengprac.2020.104721",
-    "paper_url": "https://doi.org/10.1016/j.conengprac.2020.104721",
+    "paper_url": "papers/2021-mude-based-control-of-quadrotor-for-accurate-attitude-tracking.pdf",
     "published_url": "https://linkinghub.elsevier.com/retrieve/pii/S0967066120302914",
     "image": "assets/publications/paper-20.webp",
     "info": [
@@ -587,7 +645,10 @@
       "作者情况：戚煜华第一作者",
       "发表日期：2021.3.1"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Yang Zhu"
+    ]
   },
   {
     "id": "paper-21",
@@ -602,7 +663,7 @@
     ],
     "venue": "World Symposium on Artificial Intelligence",
     "doi": "10.1109/WSAI51899.2021.9486344",
-    "paper_url": "https://doi.org/10.1109/WSAI51899.2021.9486344",
+    "paper_url": "papers/2021-uncertainty-and-disturbance-estimator-based-robust-control-of-quadrotor-without-velocity-measurements.pdf",
     "published_url": "https://ieeexplore.ieee.org/document/9486344/",
     "image": "assets/publications/paper-21.webp",
     "info": [
@@ -613,7 +674,8 @@
       "发表日期：20 June 2021",
       "作者情况：戚煜华合作作者"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": []
   },
   {
     "id": "paper-22",
@@ -629,7 +691,7 @@
     ],
     "venue": "ROBOTICS AND AUTONOMOUS SYSTEMS",
     "doi": "10.1016/j.robot.2019.05.004",
-    "paper_url": "https://doi.org/10.1016/j.robot.2019.05.004",
+    "paper_url": "papers/2019-autonomous-landing-solution-of-low-cost-quadrotor-on-a-moving-platform.pdf",
     "published_url": "https://linkinghub.elsevier.com/retrieve/pii/S0921889019300508",
     "image": "assets/publications/paper-22.webp",
     "info": [
@@ -641,7 +703,10 @@
       "发表日期：2019-09-05",
       "作者情况：戚煜华第一作者"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Jianan Wang"
+    ]
   },
   {
     "id": "paper-23",
@@ -654,7 +719,7 @@
     ],
     "venue": "IEEE SENSORS JOURNAL",
     "doi": "10.1109/JSEN.2019.2924668",
-    "paper_url": "https://doi.org/10.1109/JSEN.2019.2924668",
+    "paper_url": "papers/2019-computationally-efficient-robust-algorithm-for-generalized-sensor-calibration-problem-ar-rb.pdf",
     "published_url": "https://ieeexplore.ieee.org/document/8744621/",
     "image": "assets/publications/paper-23.webp",
     "info": [
@@ -666,7 +731,10 @@
       "发表日期：2019-10-09",
       "作者情况：戚煜华为合作作者"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Ming Liu"
+    ]
   },
   {
     "id": "paper-24",
@@ -681,7 +749,7 @@
     ],
     "venue": "SENSORS",
     "doi": "10.3390/s19061479",
-    "paper_url": "https://doi.org/10.3390/s19061479",
+    "paper_url": "papers/2019-drone-detection-and-pose-estimation-using-relational-graph-networks.pdf",
     "published_url": "https://www.mdpi.com/1424-8220/19/6/1479",
     "image": "assets/publications/paper-24.webp",
     "info": [
@@ -693,7 +761,10 @@
       "发表日期：MAR 26 2019",
       "作者情况：戚煜华为合作作者"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Tao Song"
+    ]
   },
   {
     "id": "paper-25",
@@ -706,7 +777,7 @@
     ],
     "venue": "INTERNATIONAL JOURNAL OF SYSTEMS SCIENCE",
     "doi": "10.1080/00207721.2017.1412538",
-    "paper_url": "https://doi.org/10.1080/00207721.2017.1412538",
+    "paper_url": "papers/2018-aerial-cooperative-transporting-and-assembling-control-using-multiple-quadrotor-manipulator-systems.pdf",
     "published_url": "https://www.tandfonline.com/doi/full/10.1080/00207721.2017.1412538",
     "image": "assets/publications/paper-25.webp",
     "info": [
@@ -718,7 +789,10 @@
       "作者情况：戚煜华第一作者",
       "发表日期：2018-02-17"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Jianan Wang"
+    ]
   },
   {
     "id": "paper-26",
@@ -734,7 +808,7 @@
     ],
     "venue": "International Conference on Control, Automation, Robotics and Vision",
     "doi": "10.1109/ICARCV.2018.8581116",
-    "paper_url": "https://doi.org/10.1109/ICARCV.2018.8581116",
+    "paper_url": "papers/2018-quadrotors-low-cost-vision-based-autonomous-landing-architecture-on-a-moving-platform.pdf",
     "published_url": "https://ieeexplore.ieee.org/document/8581116/",
     "image": "assets/publications/paper-26.webp",
     "info": [
@@ -745,7 +819,10 @@
       "发表日期：20 November 2018",
       "作者情况：戚煜华合作作者"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Jianan Wang"
+    ]
   },
   {
     "id": "paper-27",
@@ -758,7 +835,7 @@
     ],
     "venue": "World Congress of the International-Federation-of-Automatic-Control",
     "doi": "10.1016/j.ifacol.2017.08.764",
-    "paper_url": "https://doi.org/10.1016/j.ifacol.2017.08.764",
+    "paper_url": "papers/2017-collision-free-formation-control-for-multiple-quadrotor-manipulator-systems.pdf",
     "published_url": "https://linkinghub.elsevier.com/retrieve/pii/S2405896317312132",
     "image": "assets/publications/paper-27.webp",
     "info": [
@@ -769,7 +846,10 @@
       "发表日期：JULY 09, 2017",
       "作者情况：戚煜华第一作者"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Jianan Wang"
+    ]
   },
   {
     "id": "paper-28",
@@ -783,7 +863,7 @@
     ],
     "venue": "Chinese Control Conference",
     "doi": "10.1109/ChiCC.2016.7554622",
-    "paper_url": "https://doi.org/10.1109/ChiCC.2016.7554622",
+    "paper_url": "papers/2016-cooperative-assembling-using-multiple-robotic-manipulators.pdf",
     "published_url": "https://ieeexplore.ieee.org/document/7554622/",
     "image": "assets/publications/paper-28.webp",
     "info": [
@@ -794,6 +874,9 @@
       "发表日期：29 July  2016",
       "作者情况：戚煜华第一作者"
     ],
-    "links": []
+    "links": [],
+    "corresponding_authors": [
+      "Jianan Wang"
+    ]
   }
 ]

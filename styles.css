@@ -89,6 +89,7 @@ button { color: inherit; font: inherit; }
 .paper-body h3 a:hover { color: var(--link-dark); text-decoration: none; }
 .paper-authors { margin: 0 0 5px !important; color: #5d6367; font-size: .8rem; line-height: 1.55; }
 .paper-authors strong { color: var(--heading); font-weight: 700; }
+.corresponding-author { margin-left: 1px; color: var(--accent); font-size: .78em; font-weight: 700; line-height: 0; }
 .paper-venue { margin: 0 !important; color: var(--link-dark); font-size: .8rem; font-style: italic; font-weight: 500; line-height: 1.55; }
 .paper-actions { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: flex-start; margin-top: 10px; }
 .paper-link { display: inline-flex; align-items: center; gap: 5px; color: var(--link); font-size: .72rem; font-weight: 600; cursor: pointer; }
