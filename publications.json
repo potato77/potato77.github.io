@@ -29,6 +29,39 @@
     ]
   },
   {
+    "id": "paper-29",
+    "year": 2026,
+    "title": "PUL-SLAM: Path-Uncertainty Co-Optimization with Lightweight Stagnation Detection for Efficient Robotic Exploration",
+    "authors": [
+      "Yizhen Yin",
+      "Dapeng Feng",
+      "Hongbo Chen",
+      "Yuhua Qi"
+    ],
+    "venue": "Measurement Science and Technology",
+    "doi": "10.1088/1361-6501/ae773e",
+    "paper_url": "papers/2026-pul-slam-path-uncertainty-co-optimization-with-lightweight-stagnation-detection-for-efficient-robotic-exploration.pdf",
+    "published_url": "https://iopscience.iop.org/article/10.1088/1361-6501/ae773e",
+    "image": "assets/publications/paper-29.webp",
+    "info": [
+      "DOI：10.1088/1361-6501/ae773e",
+      "期刊：Measurement Science and Technology",
+      "ISSN：0957-0233",
+      "卷号：Volume 37、Issue 27、Page 276304",
+      "作者情况：戚煜华合作作者",
+      "发表日期：2026-07-08"
+    ],
+    "links": [
+      {
+        "label": "Preprint",
+        "url": "https://arxiv.org/abs/2511.04180"
+      }
+    ],
+    "corresponding_authors": [
+      "Hongbo Chen"
+    ]
+  },
+  {
     "id": "paper-02",
     "year": 2025,
     "title": "Heterogeneous LiDAR Dataset for Benchmarking Robust Localization in Diverse Degenerate Scenarios",
@@ -55,7 +88,7 @@
       "期刊分区：中科院1区",
       "卷号：Volume 45、Issue 1、Page 6-22",
       "作者情况：学生第一作者，戚煜华通信作者",
-      "发表日期：2025.6.1"
+      "发表日期：2025-06-01"
     ],
     "links": [
       {
@@ -91,7 +124,7 @@
       "期刊分区：中科院2区",
       "卷号：Volume 10、Issue 5、Page 4340-4347",
       "作者情况：学生第一作者，戚煜华与陈洪波为共同通信作者",
-      "发表日期：2025.5.1"
+      "发表日期：2025-05-01"
     ],
     "links": [
       {
@@ -123,8 +156,8 @@
       "DOI：10.1109/ICCAR64901.2025.11073039",
       "会议：International Conference on Control, Automation and Robotics",
       "会议地点：Kyoto, Japan",
-      "会议日期：18-20 April 2025",
-      "发表日期：15 July 2025",
+      "会议日期：2025-04-18 至 2025-04-20",
+      "发表日期：2025-07-15",
       "作者情况：学生第一作者，戚煜华通信作者"
     ],
     "links": [],
@@ -192,7 +225,7 @@
       "期刊分区：中科院2区TOP期刊",
       "卷号：Volume 74、Page 1-10",
       "作者情况：戚煜华合作作者",
-      "发表日期：21 February 2025"
+      "发表日期：2025-02-21"
     ],
     "links": [],
     "corresponding_authors": [
@@ -258,7 +291,7 @@
       "期刊分区：中科院2区",
       "卷号：Volume 9、Issue 12、Page 11401-11408",
       "作者情况：学生第一作者，戚煜华通信作者",
-      "发表日期：2024.12.1"
+      "发表日期：2024-12-01"
     ],
     "links": [
       {
@@ -294,7 +327,7 @@
       "会议：IEEE International Conference on Robotics and Automation",
       "会议分级：CCF-B会议",
       "会议地点：Yokohama, Japan",
-      "会议日期：13-17 May 2024",
+      "会议日期：2024-05-13 至 2024-05-17",
       "作者情况：学生第一作者，戚煜华通信作者",
       "发表日期：2024-05-13"
     ],
@@ -327,7 +360,7 @@
       "会议：IEEE International Conference on Robotics and Automation",
       "会议地点：Yokohama, Japan",
       "会议分级：CCF-B会议",
-      "会议日期：13-17 May 2024",
+      "会议日期：2024-05-13 至 2024-05-17",
       "作者情况：学生第一作者，戚煜华通信作者",
       "发表日期：2024-05-13"
     ],
@@ -356,14 +389,44 @@
       "DOI：10.1109/ICUS61736.2024.10839850",
       "会议：International Conference on Unmanned Systems ",
       "会议地点：Nanjing, China",
-      "会议日期：18-20 October 2024",
-      "发表日期：22 January 2025",
+      "会议日期：2024-10-18 至 2024-10-20",
+      "发表日期：2025-01-22",
       "作者情况：学生第一作者，戚煜华通信作者"
     ],
     "links": [],
     "corresponding_authors": [
       "Yuhua Qi"
     ]
+  },
+  {
+    "id": "paper-30",
+    "year": 2024,
+    "title": "Integrated Localization Method for a Ground-Aerial Robotic System in Warehouse Inventory Scenarios",
+    "authors": [
+      "Ruilan Yang",
+      "Yuhua Qi",
+      "Chong Pan",
+      "Jinbo Wang",
+      "Xiong Li",
+      "Hongbo Chen",
+      "Ren Jin"
+    ],
+    "venue": "Unmanned Systems",
+    "doi": "10.1142/S2301385025500700",
+    "paper_url": "https://doi.org/10.1142/S2301385025500700",
+    "paper_label": "Publisher",
+    "published_url": "https://www.worldscientific.com/doi/10.1142/S2301385025500700",
+    "image": "assets/publications/paper-30.webp",
+    "info": [
+      "DOI：10.1142/S2301385025500700",
+      "期刊：Unmanned Systems",
+      "ISSN：2301-3850",
+      "卷号：Volume 13、Issue 4、Page 1123-1141",
+      "作者情况：戚煜华合作作者",
+      "发表日期：2024-09-25"
+    ],
+    "links": [],
+    "corresponding_authors": []
   },
   {
     "id": "paper-12",
@@ -373,7 +436,7 @@
       "Yan Li",
       "Zhong-Chen Shi",
       "Yan-Qing Hou",
-      "Yu-Hua Qi",
+      "Yuhua Qi",
       "Liang Xie",
       "Wei Chen",
       "Hong-Bo Chen",
@@ -392,7 +455,7 @@
       "期刊属性：EI，中文核心",
       "卷号：Volume 51、Issue 2、Page 271-286",
       "作者情况：第一作者：李岩，戚煜华为合作作者",
-      "发表日期：2025.2.1"
+      "发表日期：2025-02-01"
     ],
     "links": [],
     "corresponding_authors": []
@@ -419,7 +482,7 @@
       "ISSN：2072-4292",
       "期刊分区：中科院2区",
       "卷号：Volume 16、Issue 9、Page 1626",
-      "发表日期：2024.5.1",
+      "发表日期：2024-05-01",
       "作者情况：第一作者为外校人员，戚煜华为通信作者"
     ],
     "links": [],
@@ -452,7 +515,7 @@
       "期刊分区：中科院2区",
       "卷号：Volume 36、Issue 26、Page 16023-16035",
       "作者情况：学生第一作者，戚煜华通信作者",
-      "发表日期：2024.1.1"
+      "发表日期：2024-05-20"
     ],
     "links": [],
     "corresponding_authors": [
@@ -488,7 +551,7 @@
       "期刊分区：中科院2区TOP期刊",
       "卷号：Volume 74、Page 1-14",
       "作者情况：第一作者为校外人员，戚煜华为合作作者",
-      "发表日期：06 August 2024"
+      "发表日期：2024-08-06"
     ],
     "links": [],
     "corresponding_authors": [
@@ -520,7 +583,7 @@
       "期刊分区：中科院4区",
       "卷号：Volume 13、Issue 4、Page 2244",
       "作者情况：学生第一作者，戚煜华通信作者",
-      "发表日期：2023.2.9"
+      "发表日期：2023-02-09"
     ],
     "links": [],
     "corresponding_authors": [
@@ -551,7 +614,7 @@
       "期刊分区：中科院2区",
       "卷号：Volume 24、Issue 4、Page 4786-4797",
       "作者情况：学生第一作者，戚煜华通信作者",
-      "发表日期：2023.12.1"
+      "发表日期：2023-12-01"
     ],
     "links": [
       {
@@ -611,8 +674,8 @@
       "DOI：10.1007/978-981-19-6613-2_606",
       "会议：International Conference on Guidance, Navigation and Control",
       "会议地点：哈尔滨, China",
-      "会议日期：AUG 05-07, 2022",
-      "发表日期：AUG 07, 2022",
+      "会议日期：2022-08-05 至 2022-08-07",
+      "发表日期：2022-08-07",
       "作者情况：学生第一作者，戚煜华通信作者"
     ],
     "links": [],
@@ -643,7 +706,7 @@
       "期刊分区：中科院2区",
       "卷号：Volume 108、Page 104721",
       "作者情况：戚煜华第一作者",
-      "发表日期：2021.3.1"
+      "发表日期：2021-03-01"
     ],
     "links": [],
     "corresponding_authors": [
@@ -670,8 +733,8 @@
       "DOI：10.1109/WSAI51899.2021.9486344",
       "会议：World Symposium on Artificial Intelligence",
       "会议地点：Guangzhou, China",
-      "会议日期：18-20 June 2021",
-      "发表日期：20 June 2021",
+      "会议日期：2021-06-18 至 2021-06-20",
+      "发表日期：2021-06-20",
       "作者情况：戚煜华合作作者"
     ],
     "links": [],
@@ -758,7 +821,7 @@
       "ISSN：1424-8220",
       "期刊分区：中科院3区",
       "卷号：Volume 19、Issue 6、Page 1479",
-      "发表日期：MAR 26 2019",
+      "发表日期：2019-03-26",
       "作者情况：戚煜华为合作作者"
     ],
     "links": [],
@@ -815,8 +878,8 @@
       "DOI：10.1109/ICARCV.2018.8581116",
       "会议：International Conference on Control, Automation, Robotics and Vision",
       "会议地点：Singapore",
-      "会议日期：18-21 November 2018",
-      "发表日期：20 November 2018",
+      "会议日期：2018-11-18 至 2018-11-21",
+      "发表日期：2018-11-20",
       "作者情况：戚煜华合作作者"
     ],
     "links": [],
@@ -842,8 +905,8 @@
       "DOI：10.1016/j.ifacol.2017.08.764",
       "会议：World Congress of the International-Federation-of-Automatic-Control",
       "会议地点：Toulouse, FRANCE",
-      "会议日期：JULY 09-14, 2017",
-      "发表日期：JULY 09, 2017",
+      "会议日期：2017-07-09 至 2017-07-14",
+      "发表日期：2017-07-09",
       "作者情况：戚煜华第一作者"
     ],
     "links": [],
@@ -870,8 +933,8 @@
       "DOI：10.1109/ChiCC.2016.7554622",
       "会议：Chinese Control Conference",
       "会议地点：Chengdu, China",
-      "会议日期：27-29 July 2016",
-      "发表日期：29 July  2016",
+      "会议日期：2016-07-27 至 2016-07-29",
+      "发表日期：2016-07-29",
       "作者情况：戚煜华第一作者"
     ],
     "links": [],

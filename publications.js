@@ -1,4 +1,5 @@
 const publicationArchive = document.querySelector('#publicationArchive');
+const assetVersion = '20261016-2';
 
 function element(tag, className, text) {
   const node = document.createElement(tag);
@@ -29,7 +30,7 @@ function renderPaper(paper) {
 
   const figure = element('figure', 'paper-thumb');
   const image = document.createElement('img');
-  image.src = paper.image;
+  image.src = `${paper.image}?v=${assetVersion}`;
   image.alt = `${paper.title} 论文预览`;
   image.loading = 'lazy';
   figure.append(image);
@@ -58,8 +59,9 @@ function renderPaper(paper) {
 
   const venue = element('p', 'paper-venue', paper.venue);
   const actions = element('div', 'paper-actions');
-  const pdfName = paper.paper_url.startsWith('papers/') ? paper.paper_url.slice('papers/'.length) : '';
-  actions.append(iconLink('PDF', paper.paper_url, 'download', { download: pdfName }));
+  const isLocalPdf = paper.paper_url.startsWith('papers/');
+  const pdfName = isLocalPdf ? paper.paper_url.slice('papers/'.length) : '';
+  actions.append(iconLink(paper.paper_label || 'PDF', paper.paper_url, isLocalPdf ? 'download' : 'file-text', { download: pdfName }));
   paper.links.forEach(link => {
     const iconName = link.label.toLowerCase().includes('code') ? 'code-2' : 'external-link';
     actions.append(iconLink(link.label, link.url, iconName));
@@ -93,7 +95,7 @@ function renderPaper(paper) {
 
 async function renderPublications() {
   try {
-    const response = await fetch('publications.json');
+    const response = await fetch(`publications.json?v=${assetVersion}`);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const papers = await response.json();
     const grouped = papers.reduce((years, paper) => {

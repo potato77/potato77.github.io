@@ -91,11 +91,12 @@ button { color: inherit; font: inherit; }
 .paper-authors strong { color: var(--heading); font-weight: 700; }
 .corresponding-author { margin-left: 1px; color: var(--accent); font-size: .78em; font-weight: 700; line-height: 0; }
 .paper-venue { margin: 0 !important; color: var(--link-dark); font-size: .8rem; font-style: italic; font-weight: 500; line-height: 1.55; }
-.paper-actions { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: flex-start; margin-top: 10px; }
-.paper-link { display: inline-flex; align-items: center; gap: 5px; color: var(--link); font-size: .72rem; font-weight: 600; cursor: pointer; }
+.paper-actions { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center; margin-top: 8px; }
+.paper-link { display: inline-flex; height: 24px; align-items: center; gap: 5px; color: var(--link); font-size: .72rem; font-weight: 600; line-height: 1; cursor: pointer; }
 .paper-link:hover { color: var(--link-dark); text-decoration: none; }
 .paper-link svg { width: 13px; height: 13px; }
 .paper-info[open] { flex-basis: 100%; }
+.paper-info { margin: 0; padding: 0; line-height: 1; }
 .paper-info summary { width: max-content; list-style: none; }
 .paper-info summary::-webkit-details-marker { display: none; }
 .paper-info[open] summary { color: var(--link-dark); }
@@ -128,7 +129,7 @@ footer { border-top: 1px solid var(--line); }
 @media (max-width: 780px) {
   html { scroll-padding-top: 76px; }
   .header-inner { min-height: 64px; }.desktop-nav { display: none; }.menu-button { display: grid; }
-  .mobile-nav { position: fixed; z-index: 19; top: 64px; left: 0; right: 0; display: grid; grid-template-columns: 1fr 1fr 1fr; padding: 14px 18px; background: #fff; border-bottom: 1px solid var(--line); transform: translateY(-130%); transition: transform .25s ease; }
+  .mobile-nav { position: fixed; z-index: 19; top: 64px; left: 0; right: 0; display: grid; grid-template-columns: repeat(4, 1fr); padding: 14px 18px; background: #fff; border-bottom: 1px solid var(--line); transform: translateY(-130%); transition: transform .25s ease; }
   .mobile-nav.open { transform: none; }.mobile-nav a { padding: 8px; color: var(--heading); font-size: .84rem; text-align: center; }
   .mobile-nav a.active { color: var(--link-dark); font-weight: 600; }
   .page-shell { grid-template-columns: 1fr; gap: 44px; padding-top: 34px; }
