@@ -76,10 +76,33 @@ button { color: inherit; font: inherit; }
 .page-heading h1 { margin: 0 0 14px; color: var(--heading); font-size: 2.15rem; line-height: 1.25; }
 .page-heading h1 small { margin-left: 10px; color: var(--muted); font-size: .8rem; font-weight: 500; text-transform: uppercase; }
 .page-heading > p:last-child { max-width: 620px; margin: 0; color: var(--muted); }
-.publication-page section { margin-bottom: 42px; padding-bottom: 34px; }
-.publication-page section h2 { font-size: 1.25rem; }
-.publication-list-full li { grid-template-columns: 78px 1fr; }
-.publication-list-full .year { text-transform: uppercase; }
+.publication-page .publication-year { margin: 0 0 54px; padding: 0; border: 0; }
+.publication-year-heading { padding-bottom: 10px; border-bottom: 2px solid var(--heading); font-size: 1.35rem !important; }
+.paper-list { border-bottom: 1px solid var(--line); }
+.paper-entry { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 26px; padding: 25px 0; border-top: 1px solid var(--line); }
+.paper-entry:first-child { border-top: 0; }
+.paper-thumb { width: 180px; height: 126px; display: flex; align-items: flex-start; justify-content: center; margin: 0; overflow: hidden; background: var(--soft); border: 1px solid var(--line); }
+.paper-thumb img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+.paper-body { min-width: 0; }
+.paper-body h3 { margin: -2px 0 7px; color: var(--heading); font-family: Georgia, "Noto Sans SC", serif; font-size: 1.05rem; line-height: 1.48; overflow-wrap: anywhere; }
+.paper-body h3 a { color: inherit; }
+.paper-body h3 a:hover { color: var(--link-dark); text-decoration: none; }
+.paper-authors { margin: 0 0 5px !important; color: #5d6367; font-size: .8rem; line-height: 1.55; }
+.paper-authors strong { color: var(--heading); font-weight: 700; }
+.paper-venue { margin: 0 !important; color: var(--link-dark); font-size: .8rem; font-style: italic; font-weight: 500; line-height: 1.55; }
+.paper-actions { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: flex-start; margin-top: 10px; }
+.paper-link { display: inline-flex; align-items: center; gap: 5px; color: var(--link); font-size: .72rem; font-weight: 600; cursor: pointer; }
+.paper-link:hover { color: var(--link-dark); text-decoration: none; }
+.paper-link svg { width: 13px; height: 13px; }
+.paper-info[open] { flex-basis: 100%; }
+.paper-info summary { width: max-content; list-style: none; }
+.paper-info summary::-webkit-details-marker { display: none; }
+.paper-info[open] summary { color: var(--link-dark); }
+.paper-info-panel { margin-top: 12px; padding: 14px 16px; background: var(--soft); border-left: 2px solid var(--link); }
+.paper-info-panel dl { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 5px 14px; margin: 0; font-size: .75rem; line-height: 1.55; }
+.paper-info-panel dt { color: var(--muted); }
+.paper-info-panel dd { min-width: 0; margin: 0; color: var(--heading); overflow-wrap: anywhere; }
+.publication-loading, .publication-error { color: var(--muted); font-size: .86rem; }
 
 .projects-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 .projects-grid article { min-height: 158px; padding: 21px; background: var(--soft); border: 1px solid #ebeeee; }
@@ -124,8 +147,12 @@ footer { border-top: 1px solid var(--line); }
   .notice { grid-template-columns: 1fr; gap: 5px; }
   .interest-list li { grid-template-columns: 1fr; gap: 3px; padding: 14px 0; }
   .publication-list li { grid-template-columns: 42px 1fr; gap: 8px; }
-  .publication-list-full li { grid-template-columns: 66px 1fr; }
   .page-heading h1 { font-size: 1.82rem; }.page-heading h1 small { display: block; margin: 7px 0 0; }
+  .paper-entry { grid-template-columns: 104px minmax(0, 1fr); gap: 15px; padding: 20px 0; }
+  .paper-thumb { width: 104px; height: 92px; }
+  .paper-body h3 { font-size: .96rem; line-height: 1.42; }
+  .paper-info-panel { grid-column: 1 / -1; }
+  .paper-info-panel dl { grid-template-columns: 76px minmax(0, 1fr); }
   .projects-grid { grid-template-columns: 1fr; }.projects-grid article:first-child { grid-column: auto; grid-template-columns: 1fr; }.projects-grid article:first-child > div { padding: 4px 20px 20px; }.projects-grid img { min-height: 170px; max-height: 210px; }
   .timeline > div { grid-template-columns: 1fr; gap: 2px; }
 }
