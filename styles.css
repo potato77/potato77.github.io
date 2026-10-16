@@ -26,7 +26,7 @@ button { color: inherit; font: inherit; }
 .site-name { color: var(--heading); font-size: 1rem; font-weight: 700; }
 .site-name:hover { text-decoration: none; }
 .site-name span { margin-left: 7px; color: var(--muted); font-size: .72rem; font-weight: 500; }
-.desktop-nav { display: flex; gap: 34px; margin-left: 70px; }
+.desktop-nav { display: flex; gap: 24px; margin-left: 52px; }
 .desktop-nav a { color: #555b5f; font-size: .9rem; font-weight: 500; }
 .desktop-nav a:hover { color: var(--link); text-decoration: none; }
 .desktop-nav a.active { color: var(--link-dark); }
@@ -45,6 +45,8 @@ button { color: inherit; font: inherit; }
 .profile-links li, .profile-links a { display: flex; align-items: center; gap: 9px; min-height: 29px; color: #4d5356; font-size: .78rem; }
 .profile-links a:hover { color: var(--link); text-decoration: none; }
 .profile-links svg { flex: 0 0 auto; width: 15px; height: 15px; }
+.home-page .profile-links { margin-top: 12px; }
+.home-page .profile-links li, .home-page .profile-links a { min-height: 27px; }
 
 .content { min-width: 0; }
 .content section { padding: 0; margin: 0 0 44px; border-bottom: 0; }
@@ -125,7 +127,7 @@ button { color: inherit; font: inherit; }
 .award-entry { display: grid; grid-template-columns: minmax(0, 1fr) 130px; gap: 24px; align-items: baseline; padding: 19px 0; border-top: 1px solid var(--line); }
 .award-entry:first-child { border-top: 0; }
 .award-body { min-width: 0; }
-.award-entry h3 { margin: 0; color: var(--heading); font-family: Georgia, "Noto Sans SC", serif; font-size: 1rem; line-height: 1.55; }
+.award-entry h3 { margin: 0; color: var(--heading); font-family: Georgia, "Noto Sans SC", serif; font-size: 1rem; line-height: 1.55; overflow-wrap: anywhere; }
 .award-entry p { margin: 4px 0 0 !important; color: var(--muted); font-size: .78rem; line-height: 1.55; }
 .award-meta { margin-top: 10px; }
 .award-level { color: var(--link-dark); font-size: .8rem; font-weight: 700; text-align: right; }
@@ -188,7 +190,7 @@ footer { border-top: 1px solid var(--line); }
 @media (max-width: 780px) {
   html { scroll-padding-top: 76px; }
   .header-inner { min-height: 64px; }.desktop-nav { display: none; }.menu-button { display: grid; }
-  .mobile-nav { position: fixed; z-index: 19; top: 64px; left: 0; right: 0; display: grid; grid-template-columns: repeat(6, 1fr); padding: 14px 6px; background: #fff; border-bottom: 1px solid var(--line); transform: translateY(-130%); transition: transform .25s ease; }
+  .mobile-nav { position: fixed; z-index: 19; top: 64px; left: 0; right: 0; display: grid; grid-template-columns: repeat(4, 1fr); padding: 10px 6px; background: #fff; border-bottom: 1px solid var(--line); transform: translateY(-130%); transition: transform .25s ease; }
   .mobile-nav.open { transform: none; }.mobile-nav a { padding: 8px 3px; color: var(--heading); font-size: .8rem; text-align: center; white-space: nowrap; }
   .mobile-nav a.active { color: var(--link-dark); font-weight: 600; }
   .page-shell { grid-template-columns: 1fr; gap: 44px; padding-top: 34px; }
