@@ -45,6 +45,10 @@ button { color: inherit; font: inherit; }
 .profile-links li, .profile-links a { display: flex; align-items: center; gap: 9px; min-height: 27px; color: #4d5356; font-size: .78rem; }
 .profile-links a:hover { color: var(--link); text-decoration: none; }
 .profile-links svg { flex: 0 0 auto; width: 15px; height: 15px; }
+.visit-stats { min-height: 18px; margin: 13px 0 0; color: #8a8f92; font-size: .68rem; line-height: 1.65; }
+.visit-stats > span { display: none; white-space: nowrap; }
+.visit-stats > span + span::before { margin: 0 7px; color: #c4c7c9; content: "\00b7"; }
+.visit-stats strong { color: #656b6f; font-weight: 500; }
 
 .content { min-width: 0; }
 .content section { padding: 0; margin: 0 0 44px; border-bottom: 0; }
@@ -196,6 +200,7 @@ footer { border-top: 1px solid var(--line); }
   .profile > img { width: 120px; height: 120px; grid-row: 1 / 6; }
   .profile h1 { margin-top: 3px; }.profile .name-en, .profile .role, .profile .affiliation { grid-column: 2; }
   .profile-links { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 2px 20px; margin-top: 20px; }
+  .visit-stats { grid-column: 1 / -1; margin-top: 8px; }
   .content section { scroll-margin-top: 72px; }
 }
 
