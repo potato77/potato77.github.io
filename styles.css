@@ -47,7 +47,11 @@ button { color: inherit; font: inherit; }
 .profile-links svg { flex: 0 0 auto; width: 15px; height: 15px; }
 .visit-stats { min-height: 18px; margin: 13px 0 0; color: #8a8f92; font-size: .68rem; line-height: 1.65; }
 .visit-stats > span { display: none; white-space: nowrap; }
-.visit-stats > span + span::before { margin: 0 7px; color: #c4c7c9; content: "\00b7"; }
+.visit-stats .visit-stats-status { display: inline; }
+.visit-stats.has-cached-stats > span:not(.visit-stats-status) { display: inline; }
+.visit-stats.has-cached-stats .visit-stats-status::before { margin: 0 7px; color: #c4c7c9; content: "\00b7"; }
+.visit-stats.has-live-stats .visit-stats-status { display: none; }
+.visit-stats > span:nth-child(2)::before { margin: 0 7px; color: #c4c7c9; content: "\00b7"; }
 .visit-stats strong { color: #656b6f; font-weight: 500; }
 
 .content { min-width: 0; }
